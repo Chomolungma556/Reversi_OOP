@@ -1,7 +1,9 @@
 #include "ConsoleBoard.h"
+#include <stdlib.h>
 
 void ConsoleBoard::display()
 {
+    system("cls");
     std::cout << "  a b c d e f g h " << std::endl;
 
     for (int y = 1; y <= BOARD_SIZE; ++y)
